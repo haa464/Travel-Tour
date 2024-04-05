@@ -1,0 +1,69 @@
+:root {
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #d63384;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+  --bs-white: #fff;
+  --bs-gray: #797F89;
+  --bs-gray-dark: #343a40;
+  --bs-primary: #0d6efd;
+  --bs-secondary: #797F89;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #d4d8db;
+  --bs-dark: #797F89;
+  --bs-font-sans-serif: "Muli", sans-serif;
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+  --gowilds-font-sans-serif: 'kumbh-sans', sans-serif;
+  --gowilds-heading-font-family: 'kumbh-sans', sans-serif;
+  --gowilds-theme-color: #63AB45;
+  --gowilds-theme-color-second: #F7921E;
+  --font-body-weight: 400;
+  --font-body-size: 16px;
+  --body-color: #82828A;
+  --body-link-color: #1C231F;
+  --body-link-color-hover: #63AB45;
+  --topbar-bg-color: #fff;
+  --topbar-color: #828892;
+  --topbar-link-color: #828892;
+  --topbar-link-color-hover: #6653E8;
+  --menu-link-color: #82828A;
+  --menu-link-color-hover: #63AB45;
+  --submenu-bg-color: #ffffff;
+  --submenu-color: #82828A;
+  --submenu-link-color: #82828A;
+  --submenu-link-color-hover: #63AB45;
+  --topbar-color-icon: #63AB45;
+  --footer-bg-color: #1D231F;
+  --footer-color: #E1E1E1;
+  --footer-link-color: #E1E1E1;
+  --footer-link-color-hover: #63AB45;
+  --copyright-bg-color: #1B1525;
+  --copyright-color: #aea8b9;
+  --copyright-link-color: #aea8b9;
+  --copyright-link-color-hover: #ffffff;
+}
+
+a {
+  font-weight: 500;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: var(--bs-body-font-family) !important;
+}

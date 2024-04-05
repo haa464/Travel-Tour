@@ -1,0 +1,35 @@
+.subhed_content {
+    text-align: center;
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 0 40px;
+}
+
+.box_heade {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--gowilds-theme-color);
+    line-height: 22px;
+}
+
+.box_heade span {
+    background: rgba(99, 171, 69, 0.12);
+    padding: 9px 22px;
+    display: inline-block;
+    border-radius: 6px;
+}
+
+h2.title_h2 {
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: -0.6px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 650px) {
+    h2.title_h2_3 {
+        font-size: 28px;
+    }
+}

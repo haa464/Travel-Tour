@@ -1,0 +1,111 @@
+.back_act {
+    background-image: url(https://themegavias.com/drupal/gowilds/sites/default/files/gbb-uploads/bg-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 20px;
+    margin: 0 30px;
+}
+
+.activ_cnt {
+    margin-bottom: 5rem;
+}
+
+.activ_des {
+    padding: 100px 0px 120px;
+}
+
+.activ_head h2 {
+    color: #fff;
+}
+
+.bg-column-inner img {
+    width: 100%;
+    max-width: 435px;
+    border-radius: 20px;
+}
+
+.act_icons {
+    font-size: 105px;
+    line-height: 1;
+    color: var(--gowilds-theme-color);
+    font-weight: 300;
+}
+
+.acivit_title {
+    font-size: 26px;
+    line-height: 38px;
+    font-weight: 700;
+    margin-bottom: 0;
+    color: #fff;
+    margin-top: 21px;
+    font-family: 'kumbh-sans', sans-serif;
+}
+
+.h2_mid p {
+    color: #d4d8db !important;
+    margin-top: 20px;
+}
+
+img.img_sec {
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.icon_mid {
+    margin-bottom: 50px;
+}
+
+.act_list_box {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.card_activit {
+    border-radius: 8px;
+    padding: 15px;
+    background: #f3f8f6;
+    overflow: hidden;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+    position: relative;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.card_des_activit {
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+}
+
+h3.card_title_h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+}
+
+span.card_span_h3 {
+    font-size: 26px;
+    line-height: 1;
+    color: var(--gowilds-theme-color);
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+}
+
+.card_activit:hover  {
+    background: var(--gowilds-theme-color-second);
+    color: #fff;
+    -webkit-box-shadow: 0 6px 10px 0 rgba(0,0,0,0.18);
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.18);
+}
+
+.card_activit:hover .card_span_h3, .card_activit:hover .card_title_h3 {
+    
+    color: #fff;
+}

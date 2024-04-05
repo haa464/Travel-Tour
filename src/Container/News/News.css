@@ -1,0 +1,226 @@
+.news_content {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.subhed_content_left {
+    text-align: left;
+    display: block;
+    margin: 0 auto;
+    padding: 0 0 40px;
+}
+
+h2.title_h2_2 {
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: -0.6px;
+    margin-top: 10px;
+    width: 60%;
+}
+
+.btn_rght {
+    font-size: 16px;
+    background: var(--gowilds-theme-color);
+    color: #fff;
+    font-weight: 700;
+    padding: 18px 32px 18px 32px;
+    line-height: 22px;
+    position: relative;
+    z-index: 9;
+    display: inline-block;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+    border: none;
+    border-radius: 0;
+    text-transform: none;
+    border-radius: 8px;
+}
+
+.tile_btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.slider_post_bxs {
+    padding: 0px 52px;
+}
+
+.box_white_des {
+    background: #fff;
+    transition: all 0.35s;
+    max-width: 500px;
+    margin: 0 auto 30px;
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.036);
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px 0px rgba(76,76,76,0.1);
+}
+
+.up_slider {
+    position: relative;
+    border-radius: 10px;
+}
+
+.img_divid img {
+    display: inline-block;
+    width: 100%;
+}
+
+span.month {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.img_cnt span {
+    display: block;
+    text-align: center;
+}
+
+span.day {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.img_cnt {
+    background-color: #63AB45;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 30px;
+    padding: 12px;
+    border-radius: 0 0 8px 8px;
+    z-index: 11;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.1;
+}
+
+.slider_cater span {
+    font-size: 15px;
+    font-weight: 500;
+    background: var(--gowilds-theme-color-second);
+    padding: 3px 20px;
+    color: #fff;
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.iiner_cnt {
+    padding: 15px 20px;
+    word-wrap: break-word;
+    margin: 0 auto;
+    position: relative;
+}
+
+.admin_cmt {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+span.admin_comment {
+    margin-left: 10px;
+}
+
+span.admin_icons svg, span.admin_comment svg {
+    color: #63AB45;
+}
+
+.header_par h3 {
+    font-weight: 600;
+    font-size: 28px;
+    margin: 12px 0 12px;
+    line-height: 32px;
+    position: relative;
+    font-family: 'kumbh-sans', sans-serif;
+}
+
+
+.btn-inline {
+    font-size: 14px;
+    color: var(--body-color);
+    position: relative;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+    font-weight: 500;
+    padding-right: 28px;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.button-swiper {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 17rem;
+}
+
+
+.swiper-button-prev {
+    transition: all 0.3s;
+    position: relative;
+    left: -2rem !important;
+    background: #fff;
+    color: #000 !important;
+    padding: 23px;
+    width: 50px !important;
+    height: 46px !important;
+    border-radius: 4px;
+    box-shadow: 0 3px 30px rgba(0,0,0,0.1);
+}
+.swiper-button-next {
+    transition: all 0.3s;
+    position: relative;
+    right: -2rem !important;
+    background: #fff;
+    color: #000 !important;
+    padding: 23px;
+    width: 50px !important;
+    height: 46px !important;
+    border-radius: 4px;
+    box-shadow: 0 3px 30px rgba(0,0,0,0.1);
+}
+
+.swiper-button-prev:after, .swiper-button-next:after {
+    font-size: 24px !important;
+}
+
+
+@media screen and (max-width: 650px) {
+    .tile_btn {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    h2.title_h2_2 {
+        font-size: 28px;
+        width: 90%;
+    }
+
+    .subhed_content_left {
+        padding: 0 0 20px;
+    }
+
+    .right_butn {
+        margin-bottom: 26px;
+    }
+
+    .slider_post_bxs {
+        padding: 0px 18px;
+    }
+
+    .btn_rght {
+        padding: 12px 24px 12px 24px;
+    }
+
+    .news_content {
+        margin-top: -2rem;
+    }
+}

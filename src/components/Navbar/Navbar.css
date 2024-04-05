@@ -1,0 +1,157 @@
+.nav_sec {
+    padding: 0 15px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+nav.navbar_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site_logo img {
+    padding: 12px 0;
+    display: inline-block;
+    height: auto;
+    max-width: 155px;
+}
+
+ul.nav_ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    margin-bottom: 0px;
+}
+
+.nav_ul li {
+    text-decoration: none;
+    padding: 30px 18px;
+}
+
+.nav_ul > li > a {
+    color: #82828A;
+    text-decoration: none;
+    font-size: 16.5px;
+    font-weight: 600;
+    transition: all 0.35s;
+    text-align: center;
+}
+
+.nav_ul > li > a:hover {
+    color: #63AB45;
+}
+
+.active_menu {
+    color: #63AB45;
+}
+
+.app__navbar-smallscreen_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100vh;
+    background: #fff;
+    transition: .5s ease;
+
+    flex-direction: column;
+    z-index: 5;
+}
+
+.app__navbar-smallscreen_overlay .overlay__close {
+    font-size: 27px;
+    color: var(--color-golden);
+    cursor: pointer;
+
+    position: absolute;
+    top: 65px;
+    right: 20px;
+}
+
+.flex__center {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+
+.app__navbar-smallscreen_links {
+    list-style: none;
+}
+
+.app__navbar-smallscreen_links li {
+    margin: 1.2rem;
+    cursor: pointer;
+    color: #000;
+    font-size: 20px;
+    text-align: left;
+    
+}
+
+.nav_li a:hover {
+    color: var(--gowilds-theme-color);
+}
+
+li.nav_li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.slide-bottom {
+    animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+  
+@-webkit-keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateX(-25%);
+              transform: translateX(-25%);
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+}
+  
+@keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateX(-25%);
+              transform: translateX(-25%);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+}
+
+.app__navbar-smallscreen {
+    display: none;
+}
+
+@media (min-width: 1350px) {
+    .nav_sec {
+        max-width: 1350px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .right_nav_link {
+        display: none;
+    }
+
+    .app__navbar-smallscreen {
+        display: flex;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 650px) {
+    .right_nav_link {
+        display: none;
+    }
+
+    .app__navbar-smallscreen {
+        display: flex;
+    }
+}
