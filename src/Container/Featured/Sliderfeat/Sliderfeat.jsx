@@ -1,5 +1,4 @@
 import React from 'react'
-import data from './slider.json'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCameraAlt, faLocation, faMoneyBillAlt, faVideoCamera } from '@fortawesome/free-solid-svg-icons';
@@ -9,6 +8,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
 import { Autoplay, Navigation, Pagination } from 'swiper/modules'
+import { tours } from '../../../constent';
 
 const Sliderfeat = () => {
   return (
@@ -49,7 +49,7 @@ const Sliderfeat = () => {
           className='clientSwiper'
 
       >
-        {data.map((card, i) => (
+        {tours.map((card, i) => (
           <SwiperSlide key={i}>
             <div className="list_tour">
               <div className="list_tour_content">

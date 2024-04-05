@@ -1,10 +1,17 @@
 // NAVIGATION
-import { faAward, faHiking, faRainbow, faTent, faUsersViewfinder } from '@fortawesome/free-solid-svg-icons';
+import { faAward, faHiking, faTent, faUsersViewfinder } from '@fortawesome/free-solid-svg-icons';
 // imgage
 import Post1 from '../assets/post-9.jpg'
 import Post2 from '../assets/post-10.jpg'
 import Post3 from '../assets/post-11.jpg'
 import Post4 from '../assets/post-12.jpg'
+
+import Tour1 from '../assets/tourimage/tour-1.jpg'
+import Tour2 from '../assets/tourimage/tour-2.jpg'
+import Tour3 from '../assets/tourimage/tour-3.jpg'
+import Tour4 from '../assets/tourimage/tour-4.jpg'
+import Tour5 from '../assets/tourimage/tour-5.jpg'
+
 
 
 export const NAV_LINKS = [
@@ -47,6 +54,44 @@ export const awards = [
     },  
 ];
 
+export const tours = [
+  {
+      name: "Body of Water Near Mountain",
+      price: "$299.00",
+      location: "Main Street, Brooklyn, NY",
+      image: Tour1
+  },
+  {
+      name: "Yucatán Peninsula & Caribbeans",
+      price: "$359.00",
+      location: "Main Street, Brooklyn, NY",
+      image: Tour2
+  },
+  {
+      name: "Rainbow Mountain Red Valley",
+      price: "$359.00",
+      location: "Main Street, Brooklyn, NY",
+      image: Tour3
+  },
+  {
+      name: "Boathouse Neighborhood",
+      price: "$359.00",
+      location: "Main Street, Brooklyn, NY",
+      image: Tour3,
+  },
+  {
+      name: "Mykonos and Santorini Tour",
+      price: "$359.00",
+      location: "Main Street, Brooklyn, NY",
+      image: Tour4,
+  },
+  {
+      name: "Java & Bali One Life Adventures",
+      price: "$359.00",
+      location: "Main Street, Brooklyn, NY",
+      image: Tour5,
+  }
+];
 
 export const news = [
   {
