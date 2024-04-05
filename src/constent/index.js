@@ -9,9 +9,8 @@ import Post4 from '../assets/post-12.jpg'
 import Tour1 from '../assets/tourimage/tour-1.jpg'
 import Tour2 from '../assets/tourimage/tour-2.jpg'
 import Tour3 from '../assets/tourimage/tour-3.jpg'
-import Tour4 from '../assets/tourimage/tour-4.jpg'
-import Tour5 from '../assets/tourimage/tour-5.jpg'
-
+import Tour4 from '../assets/tourimage/tour-7.jpg'
+import Tour5 from '../assets/tourimage/tour-9.jpg'
 
 
 export const NAV_LINKS = [
